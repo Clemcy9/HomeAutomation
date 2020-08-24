@@ -8,7 +8,8 @@
 }
 
 .container.signin-container{
-    margin-top: auto;
+    margin-top: 15%;
+    border-radius: 50%;
 }
 
 .card.signin-card{
@@ -17,4 +18,20 @@
     box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
     -webkkit-box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
     -moz-box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
+}
+
+img.signin-img{
+    padding: 0 .3em 1em;
+    margin:auto;
+    display: block;
+    width: 80%;
+}
+form.signin-form{
+    max-width: 80%;
+    margin: auto;
+}
+button.signin-btn{
+    /* color: white;
+    background-color: ; */
+    width: 100%;
 }
