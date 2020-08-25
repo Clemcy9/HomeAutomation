@@ -53,3 +53,8 @@ nav{
     border: blue 2px solid;
     height: 95vh;
 }
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #EF9E2C;
+}
