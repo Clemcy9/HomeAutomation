@@ -8,8 +8,9 @@
 }
 
 .container.signin-container{
-    margin-top: 15%;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 .card.signin-card{
@@ -18,6 +19,7 @@
     box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
     -webkkit-box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
     -moz-box-shadow: 2px 2px 5px rgba(0,0 ,0,0.5);
+    border-radius: 1em;
 }
 
 img.signin-img{
@@ -25,6 +27,7 @@ img.signin-img{
     margin:auto;
     display: block;
     width: 80%;
+    border-radius: 2em 0;
 }
 form.signin-form{
     max-width: 80%;
@@ -34,4 +37,19 @@ button.signin-btn{
     /* color: white;
     background-color: ; */
     width: 100%;
+}
+.card-body{
+    padding: 0em;
+}
+.form-control{
+    /* padding:0.2em ; */
+    text-align: center;
+}
+
+nav{
+    /* border: blue 2px solid; */
+}
+.control{
+    border: blue 2px solid;
+    height: 95vh;
 }
